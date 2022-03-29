@@ -24,6 +24,10 @@ npm i zstack-component
 import { TablePanel } from 'zstack-component'
 ```
 
+> 如果报错 @tencent/tea-component找不到内容。  
+>      
+> 请设置编译别名: @tencent/tea-component -> tea-component
+
 #### 样式
 ```ts
 import 'zstack-component/es/zstack-component.css'
