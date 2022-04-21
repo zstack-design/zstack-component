@@ -1,5 +1,12 @@
 ## Changelog
 
+### 2.4.15
+`2022-04-21`
+- `TablePanel`修复在使用`Page`分页类型时,`index`的计算问题
+- `Form`修复warning
+- 重构`SecurityEmpty`组件，导出内置Empty样式的上层组件以支持按需加载
+
+---
 ### 2.4.14
 `2022-04-15`
 - `TablePanel`新增`autoPagination`参数用于受控数据源是否使用内置的分页模型
