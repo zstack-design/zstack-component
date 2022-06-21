@@ -1,5 +1,18 @@
 ## Changelog
 
+`2022-06-21`
+- 去掉所有DIN样式
+- 修复`Carousel`的默认左侧按钮点击失效问题
+- `TablePanel`的ColumnSetting功能回调传递更多参数
+- 修复`DateSegmentPicker`在`TablePanel`中的异常更新行为
+- 修复`TablePanel`表头水平左右滚动问题
+- 优化`Carousel`的无用z-index样式问题
+- `TablePanel`的`columnSetting`功能默认新增disabled功能
+- `StepsForm`修复`rc-util`引用问题
+- 统一`表单类`组件内部引用方式
+
+---
+
 ### 2.4.15
 `2022-04-21`
 - `TablePanel`修复在使用`Page`分页类型时,`index`的计算问题
